@@ -1,6 +1,6 @@
-# AnyEnhance-based Baseline for the CCF-AATC 2025 Challenge [Track 1](https://ccf-aatc.org.cn/)
+# AnyEnhance-based Baseline for the CCF-AATC 2025 Challenge
 
-This repository provides a baseline for the CCF-AATC 2025 Challenge Track 1, which aims to do speech restoration under multiple distortions:
+This repository provides a baseline for the CCF-AATC 2025 Challenge [Track 1](https://ccf-aatc.org.cn/), which aims to do speech restoration under multiple distortions:
 
 - Acoustic Degradation: (Noise & Reverberation)
 - Signal Chain Artifacts: (Clipping, Bandwidth Limitation, Codec Distortions)
