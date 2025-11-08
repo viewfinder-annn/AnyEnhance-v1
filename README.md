@@ -1,4 +1,4 @@
-# Baseline for the CCF-AATC 2025 Challenge [Track 1](https://ccf-aatc.org.cn/)
+# AnyEnhance-based Baseline for the CCF-AATC 2025 Challenge [Track 1](https://ccf-aatc.org.cn/)
 
 This repository provides a baseline for the CCF-AATC 2025 Challenge Track 1, which aims to do speech restoration under multiple distortions:
 
@@ -219,7 +219,7 @@ You can cite the original paper as follows:
 @article{zhang2025anyenhance,
   title={AnyEnhance: A Unified Generative Model with Prompt-Guidance and Self-Critic for Voice Enhancement},
   author={Zhang, Junan and Yang, Jing and Fang, Zihao and Wang, Yuancheng and Zhang, Zehua and Wang, Zhuo and Fan, Fan and Wu, Zhizheng},
-  journal={IEEE/ACM Transactions on Audio, Speech, and Language Processing},
+  journal={IEEE Transactions on Audio, Speech, and Language Processing},
   year={2025}
 }
 ```
