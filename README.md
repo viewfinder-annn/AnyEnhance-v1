@@ -8,7 +8,11 @@ This repository provides a baseline for the CCF-AATC 2025 Challenge [Track 1](ht
 
 Our baseline model is a lightweight version of the [AnyEnhance](https://arxiv.org/abs/2501.15417) framework. We provide a [pre-trained checkpoint](#prepare-baseline-model-weights) that has been trained on the challenge's training dataset.
 
-> **!!Important: The baseline model is not the same as the one in the original [anyenhance paper](https://arxiv.org/abs/2501.15417), it is only used for this challenge.**
+> [!TIP]
+> **Challenge Results Released:** Our detailed analysis and results are now available in the [Technical Report](https://arxiv.org/abs/2509.12974). Please refer to it for a systematic evaluation of all systems. Our testset is available on [the release page](https://github.com/viewfinder-annn/AnyEnhance-v1/releases/tag/v0.1_aatc_testset).
+
+> [!IMPORTANT]
+> **Baseline Model Information:** The baseline provided here is a lightweight, task-specific version (45.68M parameters) designed for this challenge. It differs from the larger model described in the original [AnyEnhance paper](https://arxiv.org/abs/2501.15417).
 
 ## Installation
 
@@ -213,13 +217,24 @@ python evaluate.py \
 
 ## Citations
 
-You can cite the original paper as follows:
+You can cite the original anyenhance paper as follows:
 
 ```bibtex
 @article{zhang2025anyenhance,
   title={AnyEnhance: A Unified Generative Model with Prompt-Guidance and Self-Critic for Voice Enhancement},
   author={Zhang, Junan and Yang, Jing and Fang, Zihao and Wang, Yuancheng and Zhang, Zehua and Wang, Zhuo and Fan, Fan and Wu, Zhizheng},
   journal={IEEE Transactions on Audio, Speech, and Language Processing},
+  year={2025}
+}
+```
+
+If you are using challenge resources and results, consider cite our technical report:
+
+```bibtex
+@article{zhang2025ccfaatc,
+  title={The CCF AATC 2025 Speech Restoration Challenge: A Retrospective},
+  author={Zhang, Junan and Zhu, Mengyao and Xu, Xin and Bu, Hui and Ling, Zhenhua and Wu, Zhizheng},
+  journal={arXiv preprint arXiv:2509.12974},
   year={2025}
 }
 ```
